@@ -24,30 +24,32 @@ limitations under the License.
 
 > Compute the [hyperbolic arctangent][hyperbolic-arctangent] of a number.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-atanh
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var atanh = require( '@stdlib/math-base-special-atanh' );
+atanh = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.atanh;
+})();
+</script>
 ```
 
 #### atanh( x )
@@ -91,9 +93,14 @@ var v = atanh( -3.14 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var linspace = require( '@stdlib/array-base-linspace' );
-var atanh = require( '@stdlib/math-base-special-atanh' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x = linspace( -1.0, 1.0, 103 );
 
@@ -101,6 +108,11 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( atanh( x[ i ] ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -189,11 +201,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/umd
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/umd
 
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan/tree/umd
 
 <!-- </related-links> -->
 
