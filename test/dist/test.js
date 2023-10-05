@@ -34,10 +34,10 @@ var atanh = require( './../../dist' );
 
 // FIXTURES //
 
-var negative = require( './../..xtures/julia/negative.json' );
-var positive = require( './../..xtures/julia/positive.json' );
-var smallNegative = require( './../..xtures/julia/small_negative.json' );
-var smallPositive = require( './../..xtures/julia/small_positive.json' );
+var negative = require( './../fixtures/julia/negative.json' );
+var positive = require( './../fixtures/julia/positive.json' );
+var smallNegative = require( './../fixtures/julia/small_negative.json' );
+var smallPositive = require( './../fixtures/julia/small_positive.json' );
 
 
 // TESTS //
