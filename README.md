@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import atanh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@esm/index.mjs';
+import atanh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@v0.2.4-esm/index.mjs';
 ```
 
 #### atanh( x )
@@ -94,7 +94,7 @@ var v = atanh( -3.14 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import atanh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@esm/index.mjs';
+import atanh from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-atanh@v0.2.4-esm/index.mjs';
 
 var x = uniform( 100, -1.0, 1.0, {
     'dtype': 'float64'
