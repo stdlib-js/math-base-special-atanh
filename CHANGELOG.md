@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-25)
+## Unreleased (2026-08-08)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#2089](https://github.com/stdlib-js/stdlib/issues/2089)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
 -   [`4126e28`](https://github.com/stdlib-js/stdlib/commit/4126e280f1b0cacf12f7d05e660a89f895e20f01) - **test:** migrate `math/base/special/atanh` to ULP-based testing [(#13646)](https://github.com/stdlib-js/stdlib/pull/13646) _(by Philipp Burckhardt)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
@@ -27,9 +40,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
 
 </section>
