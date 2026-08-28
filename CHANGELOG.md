@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="issues">
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`e446bd6`](https://github.com/stdlib-js/stdlib/commit/e446bd626d92ff7cd36f40c9980f928cee4f1692) - **docs:** add equations [(#14686)](https://github.com/stdlib-js/stdlib/pull/14686) _(by Karan Anand)_
 -   [`3de3908`](https://github.com/stdlib-js/stdlib/commit/3de39080ee107e1d5ddc164b3762e5644683551a) - **refactor:** update implementation to latest reference implementation [(#6179)](https://github.com/stdlib-js/stdlib/pull/6179) _(by Neeraj Pathak, Karan Anand)_
 -   [`4126e28`](https://github.com/stdlib-js/stdlib/commit/4126e280f1b0cacf12f7d05e660a89f895e20f01) - **test:** migrate `math/base/special/atanh` to ULP-based testing [(#13646)](https://github.com/stdlib-js/stdlib/pull/13646) _(by Philipp Burckhardt)_
